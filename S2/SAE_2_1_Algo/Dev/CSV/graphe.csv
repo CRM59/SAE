@@ -1,0 +1,9 @@
+Nongaillard;A;Train;0;0;0
+A;E;Train;1;0.2;10
+E;Y;Train;6;0.7;5
+Y;Z;Train;1;0.9;3
+A;R;Train;3;0.8;15
+R;Z;Train;2;0.2;7
+A;T;Train;5;0.5;20
+T;Z;Train;4;0.1;1
+Z;IUT;Train;0;0;0

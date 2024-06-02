@@ -1,0 +1,20 @@
+type: uwgraph
+name: graphe_fig2a
+nodes: [Nongaillard, A_avion, A_train, Z_train, E_train, R_train, T_train, Y_train, Y_avion, IUT]
+wedges:
+  Nongaillard: {A_train: 0, A_avion: 0}
+  A_train: {E_train: 10, R_train: 15, T_train: 20, A_avion: 10}
+  A_avion: {Y_avion: 3}
+  E_train: {Y_train: 5}
+  R_train: {Z_train: 7}
+  T_train: {Z_train: 13}
+  Y_train: {Z_train: 3, Y_avion: 10}
+  Y_avion: {}
+  Z_train: {IUT: 0}
+  IUT: {}
+  
+
+
+  
+
+

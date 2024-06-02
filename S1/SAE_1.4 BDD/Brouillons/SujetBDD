@@ -1,0 +1,48 @@
+Sujet 11 : Société d'aide à domicile
+
+Personnels
+	-Pno |
+	-nomPersonnel
+	-prenomPersonnel
+	-#NomAgence
+	-telPersonnel
+	-mailPersonnel
+	-agePersonnel
+	-Rôle
+	-Diplôme
+	-horraireTravail
+
+Clients / Particulier
+	-Cno |
+	-nomClient
+	-prenomClient
+	-telClient
+	-mailClient
+	-ageCLient
+	-adresseClient
+
+Plannings
+	-#Pno
+	-horraire
+	-#Cno
+	-#adresseClient
+	-service
+
+Services
+	-Sno |
+	-NomService
+	-DescriptionService
+	-TarifHorraire
+
+Agences
+	-NomAgence     |
+	-AdresseAgence |
+	-nbSoignant
+
+Facturation
+	-Fno |
+	-#Cno
+	-#Sno
+	-DateFacturation
+	-montant
+	-statutPaiement

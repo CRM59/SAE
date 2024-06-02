@@ -1,0 +1,54 @@
+= SAÉ 2.03 -- Rapport
+Léo Fantuz Chrobot <leo.fantuz-chrobot.etu@univ-lille.fr> | Mathéo Niel <matheo.niel.etu@univ-lille.fr> | Thomas Guislin <thomas.guislin.etu@univ-lille.fr>
+v1.0, février {localyear}: Rapport de projet SAE 2.3
+:description: Rapport sur notre projet réalisé lors de la SAE 2.3
+:doctype: article
+:encoding: utf-8
+:lang: fr
+:data-uri:
+:toc: left
+:sectnums:
+ifdef::backend-pdf[]
+:pdf-theme: sae203
+:pdf-fontsdir: fonts,GEM_FONTS_DIR
+:pdf-page-margin: [15mm, 12mm]
+
+endif::[]
+
+== Auteurs du rapport
+
+Ce rapport fut rédigé par Léo Fantuz Chrobot, Mathéo Niel et Thomas Guislin, groupe A.
+
+== Compilation
+
+.HTML
+
+Pour #compiler# le rapport afin d'obtenir un fichier **html**, il faut exécuter la commande suivante dans un terminal de commande à l'emplacement exacte du fichier #.adoc# :
+`
+asciidoctor -a stylesheet=CSS/style.css Fantuz\ Chrobot\ Niel\ Guislin\ Rapport\ SAE\ 2_3.adoc
+`
+
+.PDF
+
+Pour #compiler# le rapport afin d'obtenir un fichier **PDF**, il faut exécuter la commande suivante dans un terminal de commande à l'emplacement exacte du fichier #.adoc# :
+`
+asciidoctor-pdf --theme YML/style.yml Fantuz\ Chrobot\ Niel\ Guislin\ Rapport\ SAE\ 2_3.adoc
+`
+
+
+.README
+
+Pour #compiler# le README afin d'obtenir un fichier **HTML** et **PDF**, il faut exécuter la commande suivante dans un terminal de commande à l'emplacement exacte du fichier #readme.adoc# :
+`
+asciidoctor readme.adoc
+`
+
+`
+asciidoctor-pdf readme.adoc
+`
+
+// Indexe uniquement pour la version pdf
+ifdef::backend-pdf[]
+[index]
+= Index
+endif::[]

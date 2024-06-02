@@ -1,0 +1,66 @@
+extends: default
+font:
+  catalog:
+    merge: true # prendre aussi les fonts de l'extends
+    OpenSymbols: # les symboles non accessibles (comme ✓ par exemple) devraient être ici
+      normal: opens___.ttf
+    Emoji:
+      normal: OpenSansEmoji.ttf
+      bold: OpenSansEmoji.ttf
+      italic: OpenSansEmoji.ttf
+      bold_italic: OpenSansEmoji.ttf
+  fallbacks: 
+    - Emoji
+    - OpenSymbols
+page:
+  numbering:
+    start-at: after-toc
+title-page:
+  align: left
+  title-top: 45%
+header:
+  padding: [3, 0]
+  height: 11mm
+  # line-height: 1.2
+  # vertical-align: middle
+  # image-vertical-align: top
+  border:
+    color: #dddddd
+  recto:
+    left-content: image:../img/Gitea.svg[fit=contain]
+    right-content: '{section-or-chapter-title} | {page-number}/{page-count}'
+  verso:
+    left-content: '{page-number}/{page-count} | {section-or-chapter-title}'
+    right-content: $header-recto-left-content
+footer:
+  padding: $header-padding
+  height: $header-height
+  recto:
+    left-content: image:../img/univ-lille-noir-marges1.png[fit=contain]
+    center-content: |
+      SAÉ 2.03 +
+      {soustitre}
+    right-content: image:../img/Logo-IUT.png[fit=contain]
+  verso:
+    left-content: $footer-recto-right-content
+    center-content: $footer-recto-center-content
+    right-content: $footer-recto-left-content
+heading:
+  chapter:
+    break-before: none
+example:
+  background-color: #fffef7
+  border-color: #eeeeee
+  border-width: 0.75
+abstract:
+  font-color: #5c6266
+  font-style: normal
+  first-line-font-style: $abstract-font-style
+image:
+  align: center
+  caption-align: center
+table:
+  head:
+    background-color: #f0f0f0
+index:
+  columns: 3

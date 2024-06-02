@@ -1,0 +1,12 @@
+A;B;Train;60;1.7;80
+B;A;Train;60;1.7;80
+A;C;Train;42;1.4;50
+C;A;Train;42;1.4;50
+B;C;Train;14;1.4;60
+C;B;Train;14;1.4;60
+B;D;Train;22;2.4;40
+D;B;Train;22;2.4;40
+C;D;Train;65;1.2;90
+D;C;Train;65;1.2;90
+A;C;Avion;1;1.2;90
+C;D;Avion;1;1.2;90
