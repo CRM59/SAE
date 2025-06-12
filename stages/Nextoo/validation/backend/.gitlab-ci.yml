@@ -1,0 +1,13 @@
+stages:
+  - build
+
+
+build:
+  stage: build
+  image: maven:3.9-eclipse-temurin-17-alpine
+  script:
+    - npm i && npm run build
+    - mvn clean install
+  artifacts:
+    paths:
+      - target/movies-app-0.0.1-SNAPSHOT.jar

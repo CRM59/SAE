@@ -1,0 +1,19 @@
+{
+  "movies": {
+    "title": "Titre",
+    "description": "Description",
+    "genres": "Genres",
+    "language": "Langue",
+    "forAdult": "Pour adulte",
+    "releaseDate": "Date de sortie",
+    "rating": "Evaluation"
+  },
+  "profile": {
+    "addProfile": "Créer un nouveau profil",
+    "profileName": "Nom de profil",
+    "create": "Créer",
+    "cancel": "Annuler",
+    "optional": "Facultatif",
+    "characters": "caractères"
+  }
+}

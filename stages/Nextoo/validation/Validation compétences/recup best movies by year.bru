@@ -1,0 +1,11 @@
+meta {
+  name: recup best movies by year
+  type: http
+  seq: 6
+}
+
+get {
+  url: http://localhost:8080/movies/best-movies-per-year/2025
+  body: none
+  auth: inherit
+}

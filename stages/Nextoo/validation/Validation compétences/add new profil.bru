@@ -1,0 +1,20 @@
+meta {
+  name: add new profil
+  type: http
+  seq: 2
+}
+
+post {
+  url: http://localhost:8080/profiles/add
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+    "name": "testLang",
+    "tag": "1434",
+    "adult": true,
+    "genres": ["28", "12"]
+  }
+}
