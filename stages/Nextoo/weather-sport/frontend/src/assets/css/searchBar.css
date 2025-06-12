@@ -1,0 +1,59 @@
+@font-face {
+    src: url("../fonts/Roboto-Regular.ttf");
+    font-family: Roboto;
+}
+
+
+.search-bar{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Roboto;
+}
+
+.search-bar>*{
+    margin: 15px 15px;
+}
+
+.text-selector{
+    width: 200px;
+}
+
+.selectors-top{
+    display:flex;
+}
+
+
+.statut-selector{
+    display:flex;
+    flex-direction: column;
+}
+
+.sport-selector{
+    display:flex;
+    flex-direction: column;
+}
+
+
+
+.add-buttons-list{
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    justify-content: space-between;
+}
+
+
+.update-button{
+    width: 40px;
+    height: 40px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.update-icon{
+    width: 100%;
+}

@@ -1,0 +1,101 @@
+.text-input{
+    border: solid 2px rgb(175, 177, 179);
+    cursor: pointer;
+    height: 36px;
+    border-radius: 5px;
+}
+
+.checkbox-input{
+    accent-color: rgb(248, 243, 2);
+    cursor: pointer;
+}
+
+.cancel-button{
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgb(253, 207, 207);
+    border: solid 2px rgb(247, 83, 83);
+    cursor: pointer;
+}
+
+.register-button{
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgba(253,250,207,255);
+    border: solid 2px rgba(247,237,83,255);
+    cursor: pointer;
+}
+
+.add-button{
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgb(212, 253, 207);
+    border: solid 2px rgb(138, 247, 83);
+    cursor: pointer;
+}
+
+.select-input{
+    height: 36px;
+    border: solid 2px rgb(175, 177, 179);
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.multi-select-input{
+    border: solid 2px rgb(175, 177, 179);
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+label{
+    font-size: 14px;
+    color: rgb(175, 177, 179);
+}
+
+
+.search-button{
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgba(253,250,207,255);
+    border: solid 2px rgba(247,237,83,255);
+    cursor: pointer;
+}
+
+
+.text-selector{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.select-selector{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+}
+
+.vertical-checkboxes-selector{
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.add-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+    justify-content: space-around;
+}
+
+
+.buttons{
+    display: flex;
+    width: 250px;
+    justify-content: space-between;
+}

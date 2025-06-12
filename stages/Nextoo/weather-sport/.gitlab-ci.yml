@@ -1,0 +1,14 @@
+image: maven:3.9-eclipse-temurin-17-alpine
+
+stages:
+  - build
+
+build:
+  stage: build
+  script: 
+    - cd backend && npm i && npm run build
+    - mvn clean install
+    - cd ..
+  artifacts:
+    paths:
+      - backend/target/app-0.0.1-SNAPSHOT.jar

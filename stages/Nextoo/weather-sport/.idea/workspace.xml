@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="69c4f5c1-6976-4b35-a3c1-0a37da6df6cb" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/nextoo/weather/sport/app/controllers/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/nextoo/weather/sport/app/controllers/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/nextoo/weather/sport/app/controllers/SportController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/nextoo/weather/sport/app/controllers/SportController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/nextoo/weather/sport/app/data/entities/LicenseesEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/nextoo/weather/sport/app/data/entities/LicenseesEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/nextoo/weather/sport/app/data/entities/PersonsEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/nextoo/weather/sport/app/data/entities/PersonsEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/nextoo/weather/sport/app/data/entities/PreferencesEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/nextoo/weather/sport/app/data/entities/PreferencesEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/nextoo/weather/sport/app/data/entities/SportsEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/nextoo/weather/sport/app/data/entities/SportsEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/nextoo/weather/sport/app/models/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/nextoo/weather/sport/app/models/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/nextoo/weather/sport/app/models/wrappers/criteria/LicenseesCriteriaWrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/nextoo/weather/sport/app/models/wrappers/criteria/LicenseesCriteriaWrapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/test/java/nextoo/weather/sport/app/service/external/ApiWeatherIOServiceImplTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/test/java/nextoo/weather/sport/app/service/external/ApiWeatherIOServiceImplTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Exception" />
+        <option value="Class" />
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+        <option value="Vue Composition API Component" />
+        <option value="Dockerfile" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2vRMOJURbUw1I4k5OWSY6cfYs03" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Docker.Dockerfile.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.assets/Dockerfile.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.backend/Dockerfile.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.docker-compose.yaml: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.vue/Dockerfile.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ApiWeatherIOServiceImplTests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ApiWeatherIOServiceImplTests.should_return_data_for_Lille.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ApiWeatherIOServiceTests.executor&quot;: &quot;Coverage&quot;,
+    &quot;JUnit.AppApplicationTests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ConfigurationsTests.dataSource.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CustomLicenseesRepositoryImpl.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CustomLicenseesRepositoryImpl.givenStudent_whenSave_thenGetOk.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CustomLicenseesRepositoryImplTests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CustomLicenseesRepositoryImplTests.givenStudent_whenSave_thenGetOk.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CustomLicenseesRepositoryImplTests.should_filter_by_all_filters.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CustomLicenseesRepositoryImplTests.should_filter_by_isIndoor.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CustomLicenseesRepositoryImplTests.should_filter_by_isOutdoor.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CustomLicenseesRepositoryImplTests.should_filter_by_licensees_active.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CustomLicenseesRepositoryImplTests.should_filter_by_one_WeatherType.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CustomLicenseesRepositoryImplTests.should_filter_by_several_WeatherType.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CustomLicenseesRepositoryImplTests.should_filter_by_sport.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CustomLicenseesRepositoryImplTests.should_return_all_licensees_without_filters.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.LicenseesServicesImplTests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.LicenseesServicesImplTests.should_save_a_new_licensees.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.LicenseesServicesImplTests.should_throw_IllegalArgumentException_when_updating_a_nonexistent_licensees.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.LicenseesServicesImplTests.should_throw_IllegalArgumentException_when_updating_licensees_with_nonexistent_person.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.LicenseesServicesImplTests.should_update_a_licensees.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PMLicenseesServiceTests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PMLicenseesServicesTests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PMLicenseesServicesTests.should_save_a_new_licensees_when_sport_not_exists.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PMLicenseesServicesTests.should_throw_IllegalArgumentException_when_updating_licensees_with_nonexistent_person.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PMLicenseesServicesTests.should_update_a_licensees.executor&quot;: &quot;Coverage&quot;,
+    &quot;JUnit.PMSportsServiceTests.executor&quot;: &quot;Coverage&quot;,
+    &quot;JUnit.PMSportsServiceTests.should_delete_a_sport.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PMSportsServiceTests.should_return_10_as_hour_selected.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PMSportsServiceTests.should_return_10_to_19_as_default_hour_selected_if_bad_hour_specified.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PMSportsServiceTests.should_return_10_to_19_as_defaut_hour_selected_if_no_hour_specified.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PMSportsServiceTests.should_return_all_indoor_sports.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PMSportsServiceTests.should_return_all_sports.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PMSportsServiceTests.should_return_all_sports_by_date_and_hour_for_raining_day.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PMSportsServiceTests.should_return_null_if_deleted_sport_does_not_exists.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PMSportsServiceTests.should_return_null_if_sport_does_exists.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PMSportsServiceTests.should_return_only_ski_for_snow_weather.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PMSportsServiceTests.should_save_new_sport.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PMSportsServiceTests.should_throw_PersistenceException.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PMWeatherParametersServiceTests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PMWeatherStatisticsServiceTests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SportsServiceImplTests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SportsServiceImplTests.should_return_10_to_19_as_default_hour_selected_if_bad_hour_specified.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SportsServiceImplTests.should_return_null_if_sport_does_exists.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SportsServiceImplTests.should_save_new_sport.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SportsServiceImplTests.should_throw_Exception_if_deleted_sport_does_not_exists.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SportsServiceImplTests.should_throw_Exception_if_sport_does_exists.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SportsServiceTests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SportsServiceTests.should_return_10_as_hour_selected.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SportsServiceTests.should_return_10_as_hour_selected_for_jeudi.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SportsServiceTests.should_return_10_to_19_as_defaut_hour_selected_for_jeudi_if_no_hour_specified.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SportsServiceTests.should_return_10_to_19_as_defaut_hour_selected_if_no_hour_specified.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SportsServiceTests.should_return_Samedi_as_hottest_day.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SportsServiceTests.should_return_all_indoor_sports.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SportsServiceTests.should_return_all_sports.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SportsServiceTests.should_return_all_sports_by_date_and_hour.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SportsServiceTests.should_return_all_sports_by_date_and_hour_for_rain_day.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SportsServiceTests.should_return_all_sports_by_date_and_hour_for_raining_day.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SportsServiceTests.should_return_all_sports_by_weather.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SportsServiceTests.should_return_only_ski_for_snow_weather.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SportsServiceTests.should_return_true_if_all_sport_are_recovered.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.WeatherParametersServiceTests.executor&quot;: &quot;Coverage&quot;,
+    &quot;JUnit.WeatherStatisticsServiceImplTests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.WeatherStatisticsServiceTests.executor&quot;: &quot;Coverage&quot;,
+    &quot;JUnit.WeatherStatisticsServiceTests.should_return_25_as_Jeudi_humidity_average_of.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.WeatherStatisticsServiceTests.whenUseMockAnnotation_thenMockIsInjected.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Node.js.main.js.executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;Spring Boot.AppApplication.executor&quot;: &quot;Run&quot;,
+    &quot;database.data.extractors.current.export.id&quot;: &quot;Comma-separated (CSV)_id&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/Users/Nextoo/nextoo-academy/spring/weather-sport/src/test/java&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Nextoo/nextoo-academy/spring/weather-sport&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;npm.dev.executor&quot;: &quot;Run&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\Nextoo\\AppData\\Local\\JetBrains\\IntelliJ IDEA 2024.3.5\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
+    ],
+    &quot;vue.recent.templates&quot;: [
+      &quot;Vue Composition API Component&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Nextoo\nextoo-academy\spring\weather-sport" />
+      <recent name="C:\Users\Nextoo\nextoo-academy\spring\weather-sport\backend" />
+      <recent name="C:\Users\Nextoo\nextoo-academy\spring\weather-sport\src\main\vue\assets\local" />
+      <recent name="C:\Users\Nextoo\nextoo-academy\spring\weather-sport\src\main\vue\assets\img" />
+      <recent name="C:\Users\Nextoo\nextoo-academy\spring\weather-sport\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Nextoo\nextoo-academy\spring\weather-sport\src\main\vue" />
+      <recent name="C:\Users\Nextoo\nextoo-academy\spring\weather-sport" />
+      <recent name="C:\Users\Nextoo\nextoo-academy\spring\weather-sport\dockerfiles" />
+      <recent name="C:\Users\Nextoo\nextoo-academy\spring\weather-sport\src\main\vue\assets\local\fr" />
+      <recent name="C:\Users\Nextoo\nextoo-academy\spring\weather-sport\src\main\vue\assets\local" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="nextoo.weather.sport.app.service" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="nextoo.weather.sport.app.validators" />
+      <recent name="nextoo.weather.sport.app.exception" />
+      <recent name="nextoo.weather.sport.app.external.dto" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Docker.backend/Dockerfile">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="weather-sport" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="weather-sport" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+    <configuration name="AppApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="$USER_HOME$/.jdks/corretto-17.0.15" />
+      <module name="app" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="nextoo.weather.sport.app.AppApplication" />
+      <option name="VM_PARAMETERS" value="-Dspring.profiles.active=local" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="sourceFilePath" value="Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
+      <deployment type="dockerfile">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="assets/Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="sourceFilePath" value="src/main/vue/assets/Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="backend/Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="sourceFilePath" value="backend/Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yaml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="docker-compose.yaml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="vue/Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="sourceFilePath" value="src/main/vue/Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="dev" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Docker.Dockerfile" />
+      <item itemvalue="Docker.assets/Dockerfile" />
+      <item itemvalue="Docker.backend/Dockerfile" />
+      <item itemvalue="Docker.docker-compose.yaml: Compose Deployment" />
+      <item itemvalue="Docker.vue/Dockerfile" />
+      <item itemvalue="npm.dev" />
+      <item itemvalue="Spring Boot.AppApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.backend/Dockerfile" />
+        <item itemvalue="Docker.docker-compose.yaml: Compose Deployment" />
+        <item itemvalue="Docker.Dockerfile" />
+        <item itemvalue="Docker.vue/Dockerfile" />
+        <item itemvalue="Docker.assets/Dockerfile" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.25410.109" />
+        <option value="bundled-js-predefined-d6986cc7102b-6a121458b545-JavaScript-IU-251.25410.109" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="69c4f5c1-6976-4b35-a3c1-0a37da6df6cb" name="Changes" comment="" />
+      <created>1744103399384</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1744103399384</updated>
+      <workItem from="1744103400544" duration="16794000" />
+      <workItem from="1744197202244" duration="14272000" />
+      <workItem from="1744268906361" duration="24632000" />
+      <workItem from="1744354981199" duration="4600000" />
+      <workItem from="1744359935958" duration="18268000" />
+      <workItem from="1744613913557" duration="3106000" />
+      <workItem from="1744634121188" duration="6887000" />
+      <workItem from="1744641073219" duration="1433000" />
+      <workItem from="1744700744442" duration="878000" />
+      <workItem from="1744701635401" duration="22423000" />
+      <workItem from="1744802096377" duration="13419000" />
+      <workItem from="1744873402732" duration="24477000" />
+      <workItem from="1744960215222" duration="24036000" />
+      <workItem from="1745306619004" duration="23119000" />
+      <workItem from="1745392236831" duration="4083000" />
+      <workItem from="1745396886656" duration="2960000" />
+      <workItem from="1745400766410" duration="14311000" />
+      <workItem from="1745478970979" duration="17593000" />
+      <workItem from="1745501399092" duration="16000" />
+      <workItem from="1745501497489" duration="537000" />
+      <workItem from="1745569368033" duration="8667000" />
+      <workItem from="1745587926899" duration="2810000" />
+      <workItem from="1745829163278" duration="33000" />
+      <workItem from="1745829247464" duration="4000" />
+      <workItem from="1745910840178" duration="22204000" />
+      <workItem from="1745997839432" duration="15788000" />
+      <workItem from="1746169225542" duration="25775000" />
+      <workItem from="1746428907484" duration="14337000" />
+      <workItem from="1746451589227" duration="11000" />
+      <workItem from="1746451626236" duration="44000" />
+      <workItem from="1746451675103" duration="106000" />
+      <workItem from="1746451843690" duration="2724000" />
+      <workItem from="1746454889147" duration="4000" />
+      <workItem from="1746456659302" duration="417000" />
+      <workItem from="1746777838740" duration="414000" />
+      <workItem from="1746779086740" duration="1730000" />
+      <workItem from="1746782706386" duration="3227000" />
+      <workItem from="1746799253353" duration="603000" />
+      <workItem from="1747042284382" duration="1103000" />
+      <workItem from="1747043424002" duration="3000" />
+      <workItem from="1747125184828" duration="5000" />
+      <workItem from="1747127772798" duration="677000" />
+      <workItem from="1747404379006" duration="1068000" />
+      <workItem from="1747406051532" duration="1067000" />
+      <workItem from="1747407456134" duration="619000" />
+      <workItem from="1747638469110" duration="1744000" />
+      <workItem from="1748005330098" duration="1017000" />
+      <workItem from="1748279598171" duration="989000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/weather_sport$WeatherStatisticsServiceTests.ic" NAME="WeatherStatisticsServiceTests Coverage Results" MODIFIED="1744812541950" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>nextoo.weather.sport.app.service.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/weather_sport$PMLicenseesServicesTests_should_update_a_licensees.ic" NAME="PMLicenseesServicesTests.should_update_a_licensees Coverage Results" MODIFIED="1745313819107" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>nextoo.weather.sport.app.service.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/weather_sport$PMSportsServiceTests.ic" NAME="PMSportsServiceTests Coverage Results" MODIFIED="1745315885335" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>nextoo.weather.sport.app.service.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/weather_sport$WeatherParametersServiceTests.ic" NAME="WeatherParametersServiceTests Coverage Results" MODIFIED="1744812489932" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>nextoo.weather.sport.app.service.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/weather_sport$ApiWeatherIOServiceTests.ic" NAME="ApiWeatherIOServiceTests Coverage Results" MODIFIED="1744365140710" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>nextoo.weather.sport.app.service.external.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/weather_sport$SportsServiceTests.ic" NAME="SportsServiceTests Coverage Results" MODIFIED="1744812370548" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>nextoo.weather.sport.app.service.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/weather_sport$PMLicenseesServicesTests.ic" NAME="PMLicenseesServicesTests Coverage Results" MODIFIED="1745314591033" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>nextoo.weather.sport.app.service.*</FILTER>
+    </SUITE>
+  </component>
+</project>

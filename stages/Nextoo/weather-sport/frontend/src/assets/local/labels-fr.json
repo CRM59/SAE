@@ -1,0 +1,20 @@
+{
+  "research": "Rechercher",
+  "licenseesStatus": "Statut de licence",
+  "sport": "Sport",
+  "weatherType": "Type de météo",
+  "licensees": "Licence",
+  "lastName": "Nom",
+  "firstName": "Prénom",
+  "endDate": "Date fin de licence",
+  "newSport": "Nouveau sport",
+  "name": "Nom",
+  "register": "Enregistrer",
+  "cancel": "Retour",
+  "create": "Créer",
+  "modify": "Modifier",
+  "createLicensees": "Créer une licence",
+  "modifyLicensees": "Modifier une licence",
+  "startValidity": "Début de validité",
+  "endValidity": "Fin de validité"
+}

@@ -1,0 +1,23 @@
+@font-face {
+    src: url("../fonts/Roboto-Regular.ttf");
+    font-family: Roboto;
+}
+
+
+table{
+    border-collapse: collapse;
+    text-align: center;
+    width: 80%;
+    margin: 30px auto 0 auto;
+    font-family: Roboto;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    padding: 8px;
+}
+
+.statut-icon{
+    width: 25px;
+    height: 25px;
+}

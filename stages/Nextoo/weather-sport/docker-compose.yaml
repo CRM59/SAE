@@ -1,0 +1,58 @@
+version: "3.9"
+services:
+  app:
+    container_name: app
+    build: ./backend
+    image: app
+    depends_on:
+      - db
+    ports:
+      - "8080:8080"
+    environment:
+      - SPRING_DATASOURCE_URL=jdbc:postgresql://db:5432/postgres
+      - SPRING_DATASOURCE_USERNAME=postgres
+      - SPRING_DATASOURCE_PASSWORD=postgres
+      - SPRING_JPA_HIBERNATE_DDL_AUTO=update
+    networks:
+      - frontend
+      - backend
+
+  vue:
+    container_name: vue
+    build: ./frontend
+    image: vue
+    depends_on:
+      - app
+    ports:
+      - "5173:8080"
+    networks:
+      - frontend
+
+  db:
+    container_name: db
+    image: registry.gitlab.tools.nextoo.fr/nextoo-academy-former/training-course-correction/weather-project/weather-bdd-docker:1.0.0
+    environment:
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_USER: postgres
+      POSTGRES_DB: postgres
+    ports:
+      - "5432:5432"
+    volumes:
+      - data:/var/lib/postgresql/data
+    networks:
+      - backend
+
+
+volumes:
+  data:
+  sonarqube_data:
+  sonarqube_extensions:
+
+
+networks:
+  frontend:
+    # Specify driver options
+    driver: bridge
+  backend:
+    # Use a custom driver
+    driver: bridge
